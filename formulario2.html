@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+<body>
+    <h1>Los ladronzuelos de bicicletas</h1>
+    <form>
+        <label for="dia">Dia del suceso:</label>
+        <input type="date" id="dia" name="Dia"><br>
+        <br>
+    <label for="hora">Hora del suceso:</label>
+    <input type="time" id="hora" name="hora"><br>
+    <br>
+    <label for="favcolor">Color de la bicicleta:</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <br>
+    <label for="precio">Rango de precio de 1-600:</label>
+    <input type="range" id="precio" name="precio" min="1" max="600"><br>
+    <br>
+    <label for="tipo">Tipo de bicicleta:</label>
+    <select name="bicicletas" id="tipo">
+    <optgroup label="Paseo">
+     <option value="señorial">Señorial</option>
+     <option value="anti-plebeyos">Anti-plebeyos</option>
+     <option value="porencima">PorEncimDelHombro</option>
+    </optgroup>
+
+    <optgroup label="Montaña">
+        <option value="gamusinos">Gamusinos</option>
+        <option value="hueleflores">Hueleflores premium</option>
+        <option value="fangolover">Fango lover</option>
+       </optgroup>
+
+       <optgroup label="Carreras">
+        <option value="meteoymedio">Metroymedio</option>
+        <option value="3delatarde">3 de la tarde. Fluorescente edition</option>
+        <option value="grupitors">Grupitors</option>
+       </optgroup>
+    </select><br>
+    <br>
+    <label for="acc">Accesorios:</label><br>
+    <select name="acc" id="acc" multiple>
+      <option value="rue">Ruedines</option>
+      <option value="peg">Pegatinas</option>
+      <option value="ces">Cestita</option>
+      <option value="bom">Bomba de aire</option>
+      <option value="tim">Timbre</option>
+      <option value="foc">Foco</option>
+    </select><br>
+    <br>
+    <label for="marca">&#191;Qué marca era &#63;</label> <br>
+    <input list="marca" name="marca">
+    <datalist id="marca">
+     <option value="Sppecialized">
+     <option value="Trek">
+     <option value="Merida">
+     <option value="Scptt">
+     <option value="Giant">
+     <option value="Cube">
+     <option value="La Pierre">
+     <option value="Orbea">
+     <option value="Cannondale">
+     <option value="Bmc">
+     <option value="Canyon">
+     <option value="Look">
+     <option value="Protek">
+     <option value="Megamo">
+     <option value="Pinarello">
+     <option value="Bianchi">
+     <option value="Bh">
+     <option value="Factor">
+     <option value="Ghsot">
+     <option value="Cervélo">
+     <option value="argon">
+  </datalist> <br>
+  <br>
+  <input type="submit" value="submit">
+  <input type="reset" value="reset">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+    
+</body>
+</html>
